@@ -253,6 +253,10 @@ h5 {
     background: #2acb35 !important;
 }
 
+.bg-green:hover {
+    background: #fff !important;
+}
+
 .list-group1 {
     --bs-list-group-color: var(--bs-body-color);
     --bs-list-group-bg: var(--bs-body-bg);
