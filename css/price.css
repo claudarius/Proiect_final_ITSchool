@@ -1,0 +1,278 @@
+.vigo-price {
+    padding: 0 0 92px;
+}
+
+.custom-container {
+    max-width: 1280px;
+}
+
+.container-price {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.page-title {
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.text-center {
+    text-align: center!important;
+}
+
+
+.page-title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 80px;
+    border-radius: 20px;
+    background: #2acb35;
+}
+
+.page-title .page-sub-title {
+    font-size: 24px;
+    line-height: 34px;
+    color: #2acb35;
+    font-size: 14px;
+    margin-top: 40px !important;
+
+}
+
+.mr-0 {
+    margin: 0 !important;
+}
+
+.page-title .page-main-title {
+    font-size: 34px;
+    line-height: 44px;
+    color: #333740;
+    font-weight: 600;
+
+}
+
+
+
+.vigo-price .vigo-pricing-table {
+    margin: 10px 0;
+    padding: 15px 10px;
+    box-shadow: 0px 0px 23px -8px rgba(51, 51, 51, 0.34118);
+}
+
+
+.vigo-pricing-table{
+    padding: 50px 0;
+    transition: 0.5s;
+    &:hover{
+        transform: translateY(-7px);
+        border-bottom: 7px solid #2acb35;
+        box-shadow: 0px 0px 44px -8px rgba(51, 51, 51, 0.34118);
+    }
+}
+
+
+.vigo-price .pricing-icon-box {
+    margin-bottom: 40px;
+    
+    height: 50px;
+}
+
+
+
+.vigo-price .price-package {
+    padding: 5px 0;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.pos-r {
+    position: relative;
+}
+
+
+.vigo-price .price-package:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 2px;
+    background: #c7c7c7;
+   
+}
+
+.vigo-price .price-package {
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.vigo-price .price-package p {
+    color: #333740;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.vigo-price .price-package p {
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.vigo-price .list-group {
+    margin-bottom: 10px;
+}
+
+.list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.vigo-price li {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0;
+}
+
+.border-transparent1 {
+    border-color: none;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.vigo-price li .pricing {
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 23px;
+    padding-top: 10px;
+    color: #333740;
+}
+
+.vigo-price li .pricing {
+    padding: 0 0 10px;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+}
+
+.vigo-price .list-group-item .highlight-text {
+    color: #333740;
+}
+
+.highlight-text {
+    font-weight: 700;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.vigo-price .pricing-order-now {
+    padding-top: 16px;
+}
+
+.hvr-shutter-out-horizontal {
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+}
+
+.vigo-btn {
+    font-size: 18px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.hvr-shutter-out-horizontal {
+    transition-duration: 0.50s !important;
+}
+
+.bg-green {
+    background: #2acb35 !important;
+}
+
+.list-group1 {
+    --bs-list-group-color: var(--bs-body-color);
+    --bs-list-group-bg: var(--bs-body-bg);
+   
+    --bs-list-group-border-radius: var(--bs-border-radius);
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: var(--bs-secondary-color);
+    --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+    --bs-list-group-action-hover-bg: var(--bs-tertiary-bg);
+    --bs-list-group-action-active-color: var(--bs-body-color);
+    --bs-list-group-action-active-bg: var(--bs-secondary-bg);
+    --bs-list-group-disabled-color: var(--bs-secondary-color);
+    --bs-list-group-disabled-bg: var(--bs-body-bg);
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg: #0d6efd;
+    --bs-list-group-active-border-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+}

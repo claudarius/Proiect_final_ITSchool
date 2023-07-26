@@ -1,0 +1,285 @@
+#footer {
+    padding: 25px 30px;
+    background: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+@media (min-width: 1200px) {
+footer {
+    padding: 95px 0 70px;
+}
+}
+
+@media (min-width: 1024px) {
+footer {
+    padding: 29px 0 9px;
+}
+}
+
+@media (min-width: 768px)  {
+footer {
+    padding: 35px 0 12px;
+}
+
+}
+
+@media (min-width: 1200px) {
+.custom-container {
+    max-width: 1650px;
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1140px;
+}
+}
+
+@media (min-width: 992px) {
+.container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+}
+}
+
+footer .footer-box {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+.footer-title, .footer-box, .copyright, .footer-contact-form, .footer-content {
+    text-align: left !important;
+}
+}
+
+@media (min-width: 1200px) {
+footer .footer-title {
+    font-size: 34px;
+    line-height: 44px;
+    padding-bottom: 19px;
+    margin-bottom: 23px;
+}
+}
+
+@media (min-width: 768px) {
+.footer-title, .footer-box, .copyright, .footer-contact-form, .footer-content {
+    text-align: left !important;
+}
+}
+
+@media (min-width: 1200px) {
+footer .footer-content {
+    margin-bottom: 54px;
+}
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+.footer-content {
+    font-size: 15px;
+    line-height: 25px;
+}
+}
+
+@media (min-width: 768px) {
+.footer-title, .footer-box, .copyright, .footer-contact-form, .footer-content {
+    text-align: left !important;
+}
+}
+
+@media (min-width: 1024px) {
+h6 {
+    font-size: 18px;
+    line-height: 35px;
+}
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+footer .payment-method {
+    margin-top: 10px;
+}
+
+footer .payment-method img {
+    margin-bottom: 8px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+footer .footer-box-border {
+    position: relative;
+}
+
+footer .footer-box-border:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 180px;
+    background: #2acb35;
+    transform: translate(-50%, -50%);
+}
+
+footer .footer-title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50px;
+    background: #2acb35;
+    border-radius: 20px;
+}
+
+footer .footer-box {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+.footer-title, .footer-box, .copyright, .footer-contact-form, .footer-content {
+    text-align: left !important;
+}
+}
+
+@media (min-width: 1200px) {
+footer .vigo-send-message {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+}
+
+footer .footer-contact-form textarea, footer .footer-contact-form input {
+    margin-bottom: 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-marg {
+    margin-top: 40px;
+}
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+@media (min-width: 1200px) {
+.contact-address {
+    margin-top: 24px;
+}
+}
+
+.list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+footer .contact-address .list-group-item:last-child, footer .contact-address .list-group-item:first-child {
+    border-radius: 0;
+}
+}
+
+
+
+.contact-address li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.border-contact {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.decoration-link {
+    text-decoration: none !important;
+}
+
+footer .contact-address li {
+    padding: 0 0 10px;
+}
+.bg-transparent {
+    background: transparent;
+}
+.border-transparent {
+    border-color: transparent;
+}
+.pd-0 {
+    padding: 0;
+}
+.bg-transparent {
+    background-color: transparent!important;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+   
+}
